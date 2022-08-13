@@ -1,0 +1,19 @@
+/* Import all of Bootstrap's CSS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar a {
+    border: 0;
+    background-color: transparent;
+    color: #333;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
